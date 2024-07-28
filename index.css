@@ -1,0 +1,42 @@
+.title{
+    display: grid;
+    text-align: center;
+    margin: 2vh;
+    font-family: "Ubuntu", sans-serif;
+}
+
+.login-button{
+    margin: auto;
+    padding: 4vh;
+    width: 50%;
+    
+}
+
+.signin{
+    font-family: "Ubuntu", sans-serif;
+    background-color: #99ccff;
+    border: 0px;
+    border-radius: 10px;
+    height: 8vh;
+}
+
+.username, .password{
+    display: grid;
+    padding: 2vh;
+    border: #99ccff solid .5vh;
+    margin: auto;
+    border-radius: 10px;
+    font-family: "Ubuntu", sans-serif;
+    text-align: center;
+    width: 50%;
+
+}
+
+.username:focus, .password:focus{
+    border: #4da3f9 solid 1vh;
+    transition: ease-in-out .1s;
+}
+
+.userbox, .passbox{
+    margin: 1vh;
+}
