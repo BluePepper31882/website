@@ -1,42 +1,49 @@
-.title{
-    display: grid;
-    text-align: center;
-    margin: 2vh;
+.user, .pass, .signin, .title{
+    display: flex;
+    gap: 1vh;
+    flex-direction: column;
     font-family: "Ubuntu", sans-serif;
+    margin: auto;
+    margin-top: 2vh;
+    justify-content: center;
+    align-items: center;
+    padding: 1vh;
+    width: 50%;
+    border-radius: 10px;
+    
+
 }
 
-.login-button{
+body{
+    background-color: rgb(237, 253, 253)
+}
+.title{
+    font-size: x-large;
+}
+
+.signin{
+    background-color: #99ccff;
+    border-radius: 10px;
+    margin-bottom: 4vh;
+    border: solid black;
+    transition: ease-in-out .5s;
+}
+
+.signin:hover{
+    background-color: #7ca6cf;
+    transition: ease-in-out .5s;
+}
+
+.center{
     margin: auto;
-    padding: 4vh;
     width: 50%;
     
 }
 
-.signin{
-    font-family: "Ubuntu", sans-serif;
-    background-color: #99ccff;
-    border: 0px;
+.loginbox{
+    border: solid rgb(190, 190, 190);
+    margin-top: 25vh;
     border-radius: 10px;
-    height: 8vh;
-}
-
-.username, .password{
-    display: grid;
-    padding: 2vh;
-    border: #99ccff solid .5vh;
-    margin: auto;
-    border-radius: 10px;
-    font-family: "Ubuntu", sans-serif;
-    text-align: center;
-    width: 50%;
-
-}
-
-.username:focus, .password:focus{
-    border: #4da3f9 solid 1vh;
-    transition: ease-in-out .1s;
-}
-
-.userbox, .passbox{
-    margin: 1vh;
+    background-color: white;
+    
 }
