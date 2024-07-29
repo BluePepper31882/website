@@ -1,16 +1,7 @@
-.login{
-    position: absolute;
-    left: 50%;
-    top: 50%;
-    -webkit-transform: translate(-50%, -50%);
-    transform: translate(-50%, -50%);
-    border: 1vh solid black;
-    width: 80%;
-    height: 60%;
+body{
+    background-color: rgb(237, 253, 253)
 }
 
-.body{
-    background-color: antiquewhite;
-    width: 100%;
-    height: 100%;
+*{
+    font-family: "Ubuntu", sans-serif;
 }
