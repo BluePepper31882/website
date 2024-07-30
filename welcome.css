@@ -103,3 +103,23 @@ body{
     text-decoration: none;
     cursor: pointer;
 }
+
+.logout{
+    background-color: #99ccff;
+    border-radius: 10px;
+    margin-bottom: 4vh;
+    border: solid black;
+    padding: 2vh;
+    width: 20vh;
+    margin: 2vh;
+    float: right;
+    transition: ease-in-out .5s;
+    cursor: pointer;
+}
+
+
+
+.logout:hover{
+    background-color: #7ca6cf;
+    transition: ease-in-out .5s;
+}

@@ -23,21 +23,22 @@
     background-color: #99ccff;
     border-radius: 10px;
     margin-bottom: 4vh;
+    cursor: pointer;
     border: solid black;
     transition: ease-in-out .5s;
 }
 
-.remember{
-    justify-content: center;
-    display: flex;
-    margin-bottom: 4vh;
-}
+
 
 .signin:hover{
     background-color: #7ca6cf;
     transition: ease-in-out .5s;
 }
-
+.remember{
+    justify-content: center;
+    display: flex;
+    margin-bottom: 4vh;
+}
 .center{
     margin: auto;
     width: 50%;
