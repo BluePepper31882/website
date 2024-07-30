@@ -12,22 +12,41 @@
 </head>
 <body>
 <form>
-    <div class="menuBar">
-    
-        <image src="GCSSSD Logo.jpeg" class="pic"></image>
-        <div class="buttons">
-            <button id="gcit" class="gcit" type="button"> GCIT</button>
-            <button id="bbe" class="bbe" type="button" > Bankbridge Elementery</button>
-            <button id="bbr" class="bbr" type="button"> Bankbridge Regional</button>
-            <button id="bdc" class="bdc" type="button"> Bankbridge Development Center</button>
+
+
+    <div class="buttons">
+        <input class="gcit2" type="image" src="GCIT.png"/>
+        <input class="gcit2" type="image" src="BBE Map.png"/>
+        <input class="gcit2" type="image" src="GCIT.png"/>
+        <input class="gcit2" type="image" src="GCIT.png"/>        
+    </div>
+
+    <div class="sidebar">
+        <button id="logout-button">Logout</button>
+        <button id="open-modal">Update User Role</button>
+
+        <div id="role-update-modal" class="modal">
+            <div class="modal-content">
+                <span class="close-button">&times;</span>
+                <h1>Update User Role</h1>
+                <form id="update-role-form">
+                    <label for="user-email">Email:</label>
+                    <input type="email" id="user-email" name="user-email" required>
+
+                    <label for="new-role">New Role:</label>
+                    <input type="text" id="new-role" name="new-role" required>
+                    <span id="role-update-error-message"></span>
+                    <button type="submit">Update Role</button>
+                    
+                </form>
+            </div>
         </div>
+            
         
     </div>
 
     
 </form>
-
-<div id="content" class="content"></div>
 
 <script type="module" src="maps.js"></script>
 </body>
