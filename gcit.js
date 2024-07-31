@@ -64,6 +64,7 @@ function initializeZoomAndPan() {
         container.style.cursor = 'grab';
     });
 
+
     container.addEventListener('mouseleave', () => {
         isDragging = false;
         container.style.cursor = 'grab';

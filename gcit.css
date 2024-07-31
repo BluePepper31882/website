@@ -68,3 +68,11 @@ text{
     height: 100%;
     cursor: grab;
 }
+
+@media only screen and (max-width: 600px) {
+    .sidebar{
+        width: 100%;
+        height: 20%;
+    }
+
+  }
