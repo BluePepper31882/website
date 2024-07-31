@@ -19,6 +19,7 @@ svg path:hover{
 body{
     overflow: hidden;
     margin: 0;
+    
 }
 
 .sidebar{
@@ -27,6 +28,7 @@ body{
     padding: 2vh;
     background-color: #808080;
     position: absolute;
+    z-index: 999;
 }
 
 .back{
@@ -47,3 +49,22 @@ body{
     transition: ease-in-out .5s;
 }
 
+text{
+    fill: white;
+    font-size: 8vh;
+}
+
+#map-container {
+    width: 100vw;
+    height: 100vh;
+    overflow: hidden;
+    position: relative;
+    border: 1px solid #ccc;
+    
+}
+
+#map-container svg {
+    width: 100%;
+    height: 100%;
+    cursor: grab;
+}
