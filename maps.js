@@ -31,14 +31,9 @@ document.getElementById('logout-button').addEventListener('click', async () => {
 
 document.getElementById('gcit').addEventListener('click', async () => {
     event.preventDefault();
-
     
-    if (user?.role === "admin") {
-        window.location.href = 'access.html';
-    } else {
-        
-        window.location.href = 'noaccess.html';
-    }
+    window.location.href = 'gcit.html';
+    
 });
 
 

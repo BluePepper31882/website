@@ -1,0 +1,49 @@
+svg{
+    height: 100%;
+    width: 65%;
+    margin-right: 2vh;
+    position: flex;
+    float: right;
+    margin-top: 4vh;
+}
+
+svg path:hover{
+    cursor: pointer;
+    fill: lightblue !important;
+}
+
+.hallway:hover{
+    fill: #808080 !important;
+}
+
+body{
+    overflow: hidden;
+    margin: 0;
+}
+
+.sidebar{
+    width: 30%;
+    height: 100%;
+    padding: 2vh;
+    background-color: #808080;
+    position: absolute;
+}
+
+.back{
+    background-color: #99ccff;
+    border-radius: 10px;
+    margin-bottom: 4vh;
+    border: solid black;
+    padding: 2vh;
+    width: 20vh;
+    transition: ease-in-out .5s;
+    cursor: pointer;
+}
+
+
+
+.back:hover{
+    background-color: #7ca6cf;
+    transition: ease-in-out .5s;
+}
+
